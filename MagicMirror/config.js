@@ -95,7 +95,7 @@ var config = {
 		module: "calendar",
 		position: "bottom_left",	// This can be any of the regions. Best results in left or right regions.
 		config: {
-		url: 'https://outlook.office365.com/owa/calendar/b072243a16d44e1b98713ad67da2a62d@mapiadmin.net/a4203f93239c4501879a32597b3ea38914518533383813916312/S-1-8-1871497030-3303168791-4114604693-3836119432/reachcalendar.ics',
+		url: '',
 		symbol: 'calendar',	// The config property is optional.
 			// If no config is set, an example calendar is shown.
 			// See 'Configuration options' for more information.
