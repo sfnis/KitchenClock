@@ -9,6 +9,7 @@ GPIO.setup(SENSOR_PIN, GPIO.IN)
 def my_callback(channel):
     # Here, alternatively, an application / command etc. can be started.
     print('There was a movement!')
+    curl -d '' http://172.16.32.210:8060/keypress/Power
  
 try:
     GPIO.add_event_detect(SENSOR_PIN , GPIO.RISING, callback=my_callback)
